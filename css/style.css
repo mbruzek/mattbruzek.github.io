@@ -235,7 +235,7 @@ strong{
     font-weight: 600;
 }
 .about .container a:hover{
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 /*--------------------------------------------------
                End about Page
