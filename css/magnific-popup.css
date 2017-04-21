@@ -104,6 +104,15 @@
 .mfp-s-error .mfp-content {
   display: none; }
 
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
 button.mfp-close,
 button.mfp-arrow {
   overflow: visible;
