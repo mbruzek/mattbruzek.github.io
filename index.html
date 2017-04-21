@@ -27,8 +27,8 @@
     <!-- responsive styles for this template -->
     <link href="css/responsive.css" rel="stylesheet">
     <!-- Add the favicon. -->
-    <link rel="shortcut icon" href="http://www.mattbruzek.com/favicon.ico">
-  </head
+    <link rel="icon" href="/favicon.ico">
+  </head>
 
   <body class="loading-scroll-hiden">
     <div class="body">
@@ -198,8 +198,21 @@
                     </a>
                   </li>
                   <li>
-                    <a class="image-popup-vertical-fit" href="images/kubernetes_logo.png">
+                    <a class="inline-popup" href="#k8s-inline-popup">
                     <i class="fa fa-search" aria-hidden="true"></i>
+                    <div id="k8s-inline-popup" class="white-popup mfp-hide">
+                      Kubernetes is an open source system for automating 
+                      deployment and management of containers. Originally
+                      developed by Google.
+                      <br></br>
+                      I got involved with the community in late 2014 by
+                      creating software to install and configure a Kubernetes
+                      cluster on Ubuntu Linux.
+                      <br></br>
+                      Since they I have contributed code and fixed bugs in the
+                      project. Attended the 2016 KubCon in Seattle Washington, 
+                      and the 2017 KubCon in Berlin Germany.
+                    </div>
                     </a>
                   </li>
                 </ul>
@@ -222,9 +235,25 @@
                     </a>
                   </li>
                   <li>
-                    <!-- Edit Image ex: src="images/imgName"-->
-                    <a class="image-popup-vertical-fit" href="images/juju_logo.png">
+                    <a class="inline-popup" href="#juju-inline-popup">
                     <i class="fa fa-search" aria-hidden="true"></i>
+                    <div id="juju-inline-popup" class="white-popup mfp-hide">
+                      Juju is a modeling tool that makes it easy to
+                      deploy software on public clouds.
+                      <br></br>
+                      A "charm" is DevOps code that install and configure 
+                      application software in the Juju system. Charms have
+                      hooks to react to events in the software lifecycle from 
+                      install, relation, to scaling, and destruction. 
+                      <br></br>
+                      Voted in as a "Charmer" who is responsible to 
+                      create, maintain and review software projects known as 
+                      "charms" in the Juju ecosystem.
+                      <br></br>
+                      Instructed several educational sessions known as "charm
+                      schools" for the community and business partners to 
+                      teach developers on how to write charms.
+                    </div>
                     </a>
                   </li>
                 </ul>
@@ -248,9 +277,15 @@
                     </a>
                   </li>
                   <li>
-                    <!-- Edit Image ex: src="images/imgName"-->
-                    <a class="image-popup-vertical-fit" href="images/docker_logo.png">
+                    <a class="inline-popup" href="#docker-inline-popup">
                     <i class="fa fa-search" aria-hidden="true"></i>
+                    <div id="docker-inline-popup" class="white-popup mfp-hide">
+                      A Docker project used to contain the bare miminum needed
+                      for a Juju container. Used in development, and production
+                      so the CI system does not have to install or upgrade the
+                      Juju software. Creating a cleaner system with less 
+                      dependencies. 
+                    </div>
                     </a>
                   </li>
                 </ul>
@@ -274,8 +309,19 @@
                     </a>
                   </li>
                   <li>
-                    <a class="image-popup-vertical-fit" href="images/github_octocat.png">
+                    <a class="inline-popup" href="#spm-inline-popup">
                     <i class="fa fa-search" aria-hidden="true"></i>
+                    <div id="spm-inline-popup" class="white-popup mfp-hide">
+                      A personal "for fun" Python project that creates unique
+                      passwords based on the hash values of username, URL, and
+                      other user inputs. You can change the character set to 
+                      create passwords for any system.
+                      <br></br>
+                      This project contains Continuous Integration (CI) tests
+                      that verify each pull request passes the tests as they
+                      are created. Presented this project at the Python meetup
+                      group.  
+                    </div>
                     </a>
                   </li>
                 </ul>
@@ -285,7 +331,7 @@
           <!-- Work 5-->
           <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.0s">
             <div class="box">
-              <img src="images/python_logo.png" alt="weather-scheduler python">
+              <img src="images/python_logo.png" alt="weather-scheduler python project">
               <div class="box-content">
                 <h3 class="title">Weather Scheduler</h3>
                 <span class="post"> Developer </span>
@@ -296,8 +342,22 @@
                     </a>
                   </li>
                   <li>
-                    <a class="image-popup-vertical-fit" href="images/github_octocat.png">
+                    <a class="inline-popup" href="#ws-inline-popup">
                     <i class="fa fa-search" aria-hidden="true"></i>
+                    <div id="ws-inline-popup" class="white-popup mfp-hide">
+                      A personal "for fun" Python project written to automate a
+                      set of actions taken by a human every day
+                      <br></br>
+                      Someone from the local bicycle club has to  manually look
+                      up the weather information, choose a map based on wind
+                      direction, and type up an email to the group with all
+                      this information the day before the regularly scheduled
+                      rides.
+                      <br></br>
+                      This program uses the requests package to call Weather
+                      Underground APIs to get the weather information, Formats
+                      a template file and even sends the email to the group.
+                    </div>
                     </a>
                   </li>
                 </ul>
@@ -318,7 +378,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="image-popup-vertical-fit" href="images/matt_small.jpg">
+                    <a href="resume.pdf" target="_blank">
                     <i class="fa fa-search" aria-hidden="true"></i>
                     </a>
                   </li>
@@ -346,8 +406,20 @@
                     </a>
                   </li>
                   <li>
-                    <a class="image-popup-vertical-fit" href="images/jenkins_logo.png">
+                    <a class="inline-popup" href="#jenkins-inline-popup">
                     <i class="fa fa-search" aria-hidden="true"></i>
+                    <div id="jenkins-inline-popup" class="white-popup mfp-hide">
+                      A project that contains the automated testing scripts
+                      used to to create test and verify the Canonical
+                      Distribution of Kubernetes. 
+                      <br></br>
+                      Jenkins jobs call these scripts to build the charms,
+                      package the resources, deploy and test the Kubernetes
+                      cluster. 
+                      <br></br>
+                      This project runs all commands in Docker containers for 
+                      isolation reduces the software dependencies on the system.
+                    </div>
                     </a>
                   </li>
                 </ul>
@@ -394,7 +466,7 @@
                           joined IBM. I learned a lot from Matt on leading,
                           organizing scrum team in big group. He is really a
                           great senior software engineer on Java, C design and
-                          Cloud management area. I"ve had the pleasure to work
+                          Cloud management area. I've had the pleasure to work
                           with Matt on SmartCloud Entry from 2.2~2.4 to 3.1
                           release. He had strong skills on software design,
                           coding etc. Moreover, Matt is experienced agile
@@ -614,6 +686,7 @@
       </section>
       End Contact -->
     <p>
+      &nbsp;
     </p>
     <section id="contact" class="contact">
       <div class="container">
@@ -626,6 +699,9 @@
         <h3 class="text-center"><strong>mbruzek&#64;gmail.com</strong></h3>
       </div>
     </section>
+    <p>
+      &nbsp;
+    </p>
     <!-- Start Footer -->
     <footer>
       <div class="container">
@@ -643,6 +719,9 @@
       <a href="#home" class="btn btn-lg icon-top smoothScroll" id="top-button">
       <i class="fa fa-angle-double-up" aria-hidden="true"></i>
       </a>
+      <p>
+        &nbsp;
+      </p>
       <!-- End Button -->
     </footer>
     <!-- End Footer -->
