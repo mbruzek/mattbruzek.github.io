@@ -132,6 +132,10 @@ $(function () {
             verticalFit: true
         }
     });
+    $('.inline-popup').magnificPopup({
+        type: 'inline',
+        closeOnContentClick: true,
+    });
     $('#quote-carousel').carousel({
         pause: true,
         interval: 4000
